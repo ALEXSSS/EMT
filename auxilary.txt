@@ -1,0 +1,24 @@
+ # print(newAllcli[1])
+    # print("!!!!!!!!!!!!!!!!!!!!!!!1")
+    # print(newAllcli[20])
+    # print("%%%%%%%%%%%%%%%%%%%%%%%%%%")
+    # print(vstack((newAllcli[1],newAllcli[20])))
+    # print(len(newAllcli[170000384].indices))
+    # print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    # print(len(newAllcli[1].indices))
+    # print(pairwise_distances(newAllcli[170000384],newAllcli[1]))
+    # for first in newAllcli.keys():
+    #     if(i==100): break
+    #     for second in newAllcli.keys():
+    #         i+=1
+    #         print("distance between: ",first," and ",second,": ",pairwise_distances(newAllcli[first],newAllcli[second]))
+    #         if(i%10==0): break
+
+       # db = DBSCAN(eps=2.6, min_samples=4).fit(arrStack)
+    # (n_clusters=8, init='k-means++', n_init=10, precompute_distances='False')
+    # n_clusters_ = len(set(db.labels_)) - (1 if -1 in db.labels_ else 0)
+    ind=0;
+    for p in allcli.keys():
+        if(ind%30==0): print()
+        print(zx.labels_[ind],end=" ")
+        ind+=1
